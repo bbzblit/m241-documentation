@@ -10,20 +10,17 @@ languages:
     languageName: English
     languageCode: en-US
     contentDir: content/en
-    title: Site Name
+    title: M241
     params:
-      description: Site Description
+      description: A portfolio for M241
 
-services:
-  googleAnalytics:
-    ID: G-XXXXXXXXXX
 
 markup:
   highlight:
     noClasses: false
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: false
     parser:
       attribute:
         block: true
@@ -31,20 +28,20 @@ markup:
 
 params:
   project:
-    startYear: 2022
+    startYear: 2024
     presentYear: 2024
     github:
-      repo: repo
+      repo: bbzblit
     themeColor:
       light: '#ffffff'
       dark: '#101010'
 
   author:
-    name: Name
-    url: https://github.com/repo
+    name: Yannick Müller
+    url: https://github.com/bbzblit
 
   home:
-    heading: Your next
-    headingSegment2: Theme
-    description: Description
+    heading: M241
+    headingSegment2: Documentation
+    description: 
     getStartedPath: /docs
