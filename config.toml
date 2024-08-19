@@ -1,0 +1,4 @@
+baseURL = ''
+languageCode = 'en-us'
+title = 'M241 Documentation'
+theme = 'hugo-book'
