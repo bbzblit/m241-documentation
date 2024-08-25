@@ -13,6 +13,9 @@ Oftmals werden solche Websiten auch bereits durch z.B. den Internet Provider geb
 ### Verstehen
 Das Problem besteht darin, dass viele Benutzer nach dem Besuchen einer Website nicht mehr die URL überprüfen. Teilweise kann es auch schwierig sein, herauszufinden, ob es sich dabei um die echte URL handelt. Teilweise beginnen URLs auch mit Keywörtern wie `get`, `go`, `buy`. All dies macht es noch viel schwieriger die offizielle Website von den Fakes zu unterscheiden. Und es benötigt nur eine Fake Website, um einen Accound oder einen ganzen PC zu kompromitieren. Selbst technisch versierte Benutzern fällt so etwas oftmals erst dann auf, wenn es zu spät ist. Bei 'normalen' Benutzern oftmals noch später. 
 
+
+
+
 ### Definieren
 Das Problem besteht darin, dass zu spät auffällt, dass die URL Fehler beinhaltet. Da Buchstabendreher oftmals sehr schwer zu erkennen sind, fallen diese oftmals erst dann auf, wenn entweder bereits die Credentials abgefangen wurden, oder ein Malicious executable heruntergeladen wurde. 
 
@@ -31,17 +34,18 @@ Ein solcher Aufbau könnte meiner Meinung nach wie folgt aussehen
 
 ### Prototyping
 
-Die Erstellung eines Prototypen ist augrund von Zeit leider nicht möglich. Falls ich einen Prototypen erstellen müsste, würde ich folgendermassen vorgehen:
-
-1. Ich würde den Programmcode schreiben und ihn mal selber zeitweise austesten
-2. Ich würde Personen suchen, welche freiwillig meinen DNS Server verwenden, um so bereits einmal eine Userbase aufzubauen. Dadurch bin ich bereits einmal in der Lage erste Ergebnisse zu erhalten, welche später dann für die Analyse von der Popularität der Domain verwendet werden können.
-3. Ich würde einer kleinen Userbase Zugang zu der Applikation geben. Dabei würde ich technisch versierte Nutzer auswählen, welche Scams erkennen können und wissen wie sie dammit umgehen sollten.
-4. Ich würde die Userbase auch um technisch weniger begabte Benutzer erweitern.
-5. Ich würde eine Test Physhingkampanie mit einer eigenen Domain starten (natürlich nur gegen die Benutzer meiner Applikantion), um so zu testen, ob die Lösung überhaupt funktioniert. Der Angriff wäre natürlich im Legalen Rahmen und würde keinen Schaden anrichten.
+Die Erstellung eines Prototypen ist leider aufgrund von fehlender Zeit nicht möglich. Das erstellen eines Prototypens würde verumtlich mehrere Tage benötigen. Allerdings habe ich bei der Ideenfindung relativ gut beschrieben, wie ich es umsetzen würde.
 
 
 ### Iterieren
-Aufgrund des Userfeedbackes und der Auswertung von den Blockierungen/Domainaufrufen würde ich evaluieren, ob die Lösung funktioniert und überhaupt eine Sicherheit bietet. 
+
+Um zu evaluieren, ob meine Lösung überhaupt etwas Taugt müsste ich diese Testen. Am besten geht so etwas, indem man zuerst das ganze gegen eine kleine Userbase testet und dann schrittweise erweitert. Einzige Hürde in meinem Fall ist, das meine Applikation für eine volle Funktion erstmals eine Grundbasis an Daten erfordert. Diese müsste im Vorhinein gewonnen werden. Dies ist natürlich ein Problem, welches viele Techstartups haben, bei welchen das Core Produkt auf Daten bassiert. In meinem Fall sollte die Datensamlung allerdings relativ einfach funktionieren.
+
+1. Ich würde Personen suchen, welche freiwillig meinen DNS Server verwenden, um so bereits einmal eine Userbase aufzubauen. Dadurch bin ich bereits einmal in der Lage erste Ergebnisse zu erhalten, welche später dann für die Analyse von der Popularität der Domain verwendet werden können. Gegebenefalls könnte mann auch mit Vorteilen (z.B. Entgeltung) locken.
+2. Ich würde einer kleinen Userbase Zugang zu der Applikation geben. Dabei würde ich technisch versierte Nutzer auswählen, welche Scams erkennen können und wissen wie sie dammit umgehen sollten.
+3. Ich würde die Userbase auch um technisch weniger begabte Benutzer erweitern.
+4. Ich würde eine Test Physhingkampanie mit einer eigenen Domain starten (natürlich nur gegen die Benutzer meiner Applikantion), um so zu testen, ob die Lösung überhaupt funktioniert. Der Angriff wäre natürlich im Legalen Rahmen und würde keinen Schaden anrichten.
+
 
 
 ### Feedback

@@ -21,7 +21,7 @@ Problem # Wir alle kennen es, wir browsen im Internet und wollen zum Beispiel Gi
 <link rel="canonical" href="//localhost:1313/docs/documentation/design_thinking/">
 <link rel="stylesheet" href="/book.min.309b7ed028807cdb68d8d61e26d609f48369c098dbf5e4d8c0dcf4cdf49feafc.css" integrity="sha256-MJt&#43;0CiAfNto2NYeJtYJ9INpwJjb9eTYwNz0zfSf6vw=" crossorigin="anonymous">
   <script defer src="/fuse.min.js"></script>
-  <script defer src="/en.search.min.6342a8fe99cd04d1a5b9a2e60239e67019400908e43a2f74fe253b0f87d3164c.js" integrity="sha256-Y0Ko/pnNBNGluaLmAjnmcBlACQjkOi90/iU7D4fTFkw=" crossorigin="anonymous"></script>
+  <script defer src="/en.search.min.fdbdefcef260edfc65d0ef3886edfb8a03a6ea761d08e3597d4e412086f87b9b.js" integrity="sha256-/b3vzvJg7fxl0O84hu37igOm6nYdCONZfU5BIIb4e5s=" crossorigin="anonymous"></script>
 
   
 
@@ -279,19 +279,18 @@ https://github.com/alex-shpak/hugo-book
   Prototyping
   <a class="anchor" href="#prototyping">#</a>
 </h3>
-<p>Die Erstellung eines Prototypen ist augrund von Zeit leider nicht möglich. Falls ich einen Prototypen erstellen müsste, würde ich folgendermassen vorgehen:</p>
-<ol>
-<li>Ich würde den Programmcode schreiben und ihn mal selber zeitweise austesten</li>
-<li>Ich würde Personen suchen, welche freiwillig meinen DNS Server verwenden, um so bereits einmal eine Userbase aufzubauen. Dadurch bin ich bereits einmal in der Lage erste Ergebnisse zu erhalten, welche später dann für die Analyse von der Popularität der Domain verwendet werden können.</li>
-<li>Ich würde einer kleinen Userbase Zugang zu der Applikation geben. Dabei würde ich technisch versierte Nutzer auswählen, welche Scams erkennen können und wissen wie sie dammit umgehen sollten.</li>
-<li>Ich würde die Userbase auch um technisch weniger begabte Benutzer erweitern.</li>
-<li>Ich würde eine Test Physhingkampanie mit einer eigenen Domain starten (natürlich nur gegen die Benutzer meiner Applikantion), um so zu testen, ob die Lösung überhaupt funktioniert. Der Angriff wäre natürlich im Legalen Rahmen und würde keinen Schaden anrichten.</li>
-</ol>
+<p>Die Erstellung eines Prototypen ist leider aufgrund von fehlender Zeit nicht möglich. Das erstellen eines Prototypens würde verumtlich mehrere Tage benötigen. Allerdings habe ich bei der Ideenfindung relativ gut beschrieben, wie ich es umsetzen würde.</p>
 <h3 id="iterieren">
   Iterieren
   <a class="anchor" href="#iterieren">#</a>
 </h3>
-<p>Aufgrund des Userfeedbackes und der Auswertung von den Blockierungen/Domainaufrufen würde ich evaluieren, ob die Lösung funktioniert und überhaupt eine Sicherheit bietet.</p>
+<p>Um zu evaluieren, ob meine Lösung überhaupt etwas Taugt müsste ich diese Testen. Am besten geht so etwas, indem man zuerst das ganze gegen eine kleine Userbase testet und dann schrittweise erweitert. Einzige Hürde in meinem Fall ist, das meine Applikation für eine volle Funktion erstmals eine Grundbasis an Daten erfordert. Diese müsste im Vorhinein gewonnen werden. Dies ist natürlich ein Problem, welches viele Techstartups haben, bei welchen das Core Produkt auf Daten bassiert. In meinem Fall sollte die Datensamlung allerdings relativ einfach funktionieren.</p>
+<ol>
+<li>Ich würde Personen suchen, welche freiwillig meinen DNS Server verwenden, um so bereits einmal eine Userbase aufzubauen. Dadurch bin ich bereits einmal in der Lage erste Ergebnisse zu erhalten, welche später dann für die Analyse von der Popularität der Domain verwendet werden können. Gegebenefalls könnte mann auch mit Vorteilen (z.B. Entgeltung) locken.</li>
+<li>Ich würde einer kleinen Userbase Zugang zu der Applikation geben. Dabei würde ich technisch versierte Nutzer auswählen, welche Scams erkennen können und wissen wie sie dammit umgehen sollten.</li>
+<li>Ich würde die Userbase auch um technisch weniger begabte Benutzer erweitern.</li>
+<li>Ich würde eine Test Physhingkampanie mit einer eigenen Domain starten (natürlich nur gegen die Benutzer meiner Applikantion), um so zu testen, ob die Lösung überhaupt funktioniert. Der Angriff wäre natürlich im Legalen Rahmen und würde keinen Schaden anrichten.</li>
+</ol>
 <h3 id="feedback">
   Feedback
   <a class="anchor" href="#feedback">#</a>
