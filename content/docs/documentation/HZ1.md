@@ -53,4 +53,4 @@ Wir haben unsere Erkenntnisse gegenseitig ausgetauscht. Wir sind zu dem Entschlu
 
 
 ## Reflexion
-Ich selber würde versuchen durch die Investition in nachhaltige Technologien ein neues Produkt zu entwickeln welches sowohl Resourcenshoned ist allerdings auch für die Airlines kosteneffektiv ist (primär durch die Reduktion von Krafstofverbrauch). Das würde natürlich enorme Investitionen erfordern. Da allerdings die Konkurenz aktuell Scheinbar noch nicht so stark in diesem Bereich forscht wäre es möglich so eine Vielzahl neuer Kunden zu gewinnen. Zudem würde es 
+Ich selber würde versuchen durch die Investition in nachhaltige Technologien ein neues Produkt zu entwickeln welches sowohl Resourcenshoned ist allerdings auch für die Airlines kosteneffektiv ist (primär durch die Reduktion von Krafstofverbrauch). Das würde natürlich enorme Investitionen erfordern. Da allerdings die Konkurenz aktuell Scheinbar noch nicht so stark in diesem Bereich forscht wäre es möglich so eine Vielzahl neuer Kunden zu gewinnen. 

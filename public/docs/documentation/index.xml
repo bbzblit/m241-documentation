@@ -9,17 +9,24 @@
     <atom:link href="//localhost:1313/docs/documentation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>//localhost:1313/docs/documentation/analyse_inovation/</link>
+      <link>//localhost:1313/docs/documentation/hz1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/documentation/analyse_inovation/</guid>
+      <guid>//localhost:1313/docs/documentation/hz1/</guid>
       <description>Analyse Airbus # Analyse # Airbus wurde im Jahre 2000 aus der Fusion verschiedenster europäischen Flugzeugbauern gegründet. Seither ist es es immer wieder dafür bekannt, mit neuen Innovationen die Konkurenz herauszufordern. Dadurch konnten sie in den letzen Jahre immer wieder neue Kunden an Land ziehen. Allerdings gab es auch immer wieder Ruckschläge und das oftmals trotz Investitionen in Milliardenhöhe in R&amp;amp;D (Research and Development). Dies zeigt gut auf, das teilweise Innvoation auch nach hinten losgehen kann, wenn sie entweder zum falschen Zeitpunkt kommt oder das Ziel verfehlt.</description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/docs/documentation/design_thinking/</link>
+      <link>//localhost:1313/docs/documentation/hz2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/documentation/design_thinking/</guid>
+      <guid>//localhost:1313/docs/documentation/hz2/</guid>
       <description>Design Thinking # Ich habe mich hier für die Design Thinking Methode entschieden, da dies eine Methode ist, welche mir bereits etwas bekannt war. Die Design Thinking Methode besteht aus 6 einzelnen Phasen, welche interativ nacheinander abgearbeitet werden.&#xA;Problem # Wir alle kennen es, wir browsen im Internet und wollen zum Beispiel GitHub.com besuchen. Dabei vertippen wir uns und enden unabsichtlich auf GutHib.com. Solche Fehler können passieren. Vor allem dann, wenn man im Stress ist und schnell, schnell was durchführen will.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/documentation/hz3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/documentation/hz3/</guid>
+      <description>Spotify # Vorstellung Unternehmen # Das Hauptbuissnessmodel von Spotify liegt darin, Musikstreaming für eine monatliche Gebühr anzubieten. Spotify hat als Startup gestartet und wird aktuell für einen Marktwert von 68.78 Mrd. an der Börse gehandelt. Obwohl diese werte auf den ersten Blick einwandfrei erscheinen hat auch Spotify fundamentalle Probleme, welche sie zuerst lösen müssen.&#xA;Problemstellung # Das Hautproblem von Spotify liegt vor allem Darin, das sie bisher noch nicht in der Lage waren einen Operativen Gewinn zu erziehlen.</description>
     </item>
   </channel>
 </rss>

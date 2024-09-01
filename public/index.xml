@@ -9,17 +9,24 @@
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>//localhost:1313/docs/documentation/analyse_inovation/</link>
+      <link>//localhost:1313/docs/documentation/hz1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/documentation/analyse_inovation/</guid>
+      <guid>//localhost:1313/docs/documentation/hz1/</guid>
       <description>Analyse Airbus # Analyse # Airbus wurde im Jahre 2000 aus der Fusion verschiedenster europäischen Flugzeugbauern gegründet. Seither ist es es immer wieder dafür bekannt, mit neuen Innovationen die Konkurenz herauszufordern. Dadurch konnten sie in den letzen Jahre immer wieder neue Kunden an Land ziehen. Allerdings gab es auch immer wieder Ruckschläge und das oftmals trotz Investitionen in Milliardenhöhe in R&amp;amp;D (Research and Development). Dies zeigt gut auf, das teilweise Innvoation auch nach hinten losgehen kann, wenn sie entweder zum falschen Zeitpunkt kommt oder das Ziel verfehlt.</description>
     </item>
     <item>
       <title></title>
-      <link>//localhost:1313/docs/documentation/design_thinking/</link>
+      <link>//localhost:1313/docs/documentation/hz2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/docs/documentation/design_thinking/</guid>
+      <guid>//localhost:1313/docs/documentation/hz2/</guid>
       <description>Design Thinking # Ich habe mich hier für die Design Thinking Methode entschieden, da dies eine Methode ist, welche mir bereits etwas bekannt war. Die Design Thinking Methode besteht aus 6 einzelnen Phasen, welche interativ nacheinander abgearbeitet werden.&#xA;Problem # Wir alle kennen es, wir browsen im Internet und wollen zum Beispiel GitHub.com besuchen. Dabei vertippen wir uns und enden unabsichtlich auf GutHib.com. Solche Fehler können passieren. Vor allem dann, wenn man im Stress ist und schnell, schnell was durchführen will.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/documentation/hz3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/documentation/hz3/</guid>
+      <description>HZ3 # Problemstellung # Spotify hat das grosse Problem, das sie trotzt rasant steigender Umsatzzahlen bis heute (Zahlen sind von 2023) nicht Rentabel sind. Das Hautproblem darin liegt an einer Starken konkurenz und zudem einer grossen Abhängigkeit von 3 Konsernen. Dammit Spofity auch in Zukunft noch relevant bleiben kann muss sich etwas ändern.&#xA;Um die die Buissnesstrategie zu ändern, muss Spotify zuerst die Interessen der Kunden besser verstehen. Um das zu machen gibt es verschiedene Befragungsmethoden.</description>
     </item>
     <item>
       <title></title>
@@ -34,6 +41,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/lernjournal/19.08.2024/</guid>
       <description>12.08.2024 # Tagesablauf # Ich habe am heutigen Tage micht mit Design Thinking beschäftigt. Dafür musste ich erstmals ein Problem finden. Dies fiel mir relativ schwehr, da ich zwar Kreativ bin, wenn es darum geht Probleme zu Lösen. Allerdings fällt es mir noch relativ Schwehr neue Probleme zu Finden. Dabei sollte es natürlich auch um ein Problem handeln, welches überblickbar ist und auch in dem gegebenen Zeitramen gelöst werden kann.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/docs/lernjournal/25.08.2024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/lernjournal/25.08.2024/</guid>
+      <description>Spotify # Vorstellung Unternehmen # Das Hauptbuisnessmodel von Spotify liegt darin, Musikstreaming für eine monatliche Gebühr anzubieten. Spotify hat als Startup gestartet und wird aktuell für einen Marktwert von 68.78 Mrd. an der Börse gehandelt. Obwohl diese Werte auf den ersten Blick einwandfrei erscheinen, hat auch Spotify fundamentale Probleme, welche sie zuerst lösen müssen.&#xA;Problemstellung # Das Hautproblem von Spotify liegt vor allem darin, dass sie bisher noch nicht in der Lage waren, einen operativen Gewinn zu erzielen.</description>
     </item>
   </channel>
 </rss>
