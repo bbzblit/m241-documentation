@@ -1,4 +1,4 @@
-# HZ3
+# HZ4
 
 ## Marktforschung
 
@@ -15,3 +15,11 @@ Der Umsatz der Webseite wird hauptsächlich durch Werbeeinnahmen und den Weiterv
 
 ### Marktforschungsstrategie
 Die Marktforschungsstrategie besteht darin, zunächst durch eine Online-Umfrage zu ermitteln, wie gross das Interesse bei potenziellen Kunden ist. Ausserdem sollte eine Wettbewerbsanalyse durchgeführt werden, um das Risiko zu bewerten, dass ein Konkurrent ein vergleichbares Produkt auf den Markt bringt und somit eine potenzielle Gefahr darstellt.
+
+<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3826_RC01/embed_loader.js"></script>
+<script type="text/javascript">
+    trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"leetcode","geo":"","time":"2004-01-01 2024-09-16"},{"keyword":"codewars","geo":"","time":"2004-01-01 2024-09-16"}],"category":0,"property":""}, {"exploreQuery":"date=all&q=leetcode,codewars&hl=de","guestPath":"https://trends.google.de:443/trends/embed/"});
+</script>
+
+Um ein valides Interesse zu verifizieren, kann man beispielsweise Google Trends nutzen, um zu analysieren, wie oft nach den Produkten der Mitbewerber gesucht wird. Anhand der Daten lässt sich deutlich erkennen, dass LeetCode derzeit so viele Suchanfragen wie nie zuvor verzeichnet. Dies verdeutlicht, dass aktuell ein guter Zeitpunkt für den Einstieg in diese Branche ist.
+
