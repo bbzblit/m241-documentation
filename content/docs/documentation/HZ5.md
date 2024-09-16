@@ -19,3 +19,11 @@ Zudem kann man in den beiden anderen Diagrammen sehen, dass die Altersgruppen zw
 
 ![Dia1](/image/dia1.png)
 ![Dia2](/image/dia2.png)
+
+
+## Fazit Auswertung
+
+Das Auswerten und Erstellen der Daten mithilfe von Pandas und Matplotlib hat super funktioniert. Unter der Voraussetzung, dass man etwas Programmiererfahrung hat, ist es wesentlich einfacher, damit gute Diagramme zu erstellen, als mit Google Sheets. Allerdings ist es schwierig bis unmöglich, dies ohne Programmiererfahrung zu erreichen.
+
+## Fazit Daten
+Anhand der Daten lässt sich die Entwicklung der Bevölkerung gut nachvollziehen. Dabei erkennt man, dass die Geburtenzahlen seit etwa der Jahrtausendwende rückläufig sind. Dies könnte in Zukunft eine große Herausforderung darstellen, da unsere Wirtschaft und Gesellschaft nur dann funktionieren können, wenn ausreichend Fachkräfte vorhanden sind. Zudem ist die 1. Säule nur gesichert, wenn weiterhin genügend Personen in das System einzahlen.
