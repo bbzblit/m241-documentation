@@ -1,62 +1,22 @@
-# Design Thinking
+# Design Thinking (HZ2)
 
-Ich habe mich hier für die Design Thinking Methode entschieden, da dies eine Methode ist, welche mir bereits etwas bekannt war. Die Design Thinking Methode besteht aus 6 einzelnen Phasen, welche interativ nacheinander abgearbeitet werden.
+## Problemstellung
+In den letzten Jahren ist Phishing zu einem immer größer werdenden Problem geworden. Durch den rasanten Zuwachs an Internetnutzern gibt es auch immer mehr potenzielle Ziele für Betrüger.
 
-## Problem
-Wir alle kennen es, wir browsen im Internet und wollen zum Beispiel GitHub.com besuchen. Dabei vertippen wir uns und enden unabsichtlich auf GutHib.com. Solche Fehler können passieren. Vor allem dann, wenn man im Stress ist und schnell, schnell was durchführen will. Oftmals kann die Domain einfach nicht gefunden werden ,und es wird im Browser eine Fehlermeldung angezeigt. Allerdings werden solche Buchstabendreher leider auch oftmals von Internetkriminellen verwendet. Diese hosten auf der Seite Maleware oder verwenden die Website als Phishing Seite. 
+Eine weitere sehr beunruhigende Entwicklung ist die ständige Verbesserung der Phishing-Methoden. Die Techniken der Angreifer werden immer ausgefeilter und sind teilweise selbst für Experten schwer zu erkennen. Ein einziger Fehlklick reicht aus, um einen PC zu infizieren.
 
-Oftmals werden solche Websiten auch bereits durch z.B. den Internet Provider geblacklistet (spricht man erhählt eine Warnung, das diese Website möglicherweise schädlich ist). Allerdings können solche Warnungen erst dann angezeigt werden, nachdem bereits einige Personen die Website besucht haben. 
-
-
-## Phasen
+## Problemlösung
+Um eine Lösung für mein Problem zu finden, habe ich die Design-Thinking-Methode angewandt. Dabei habe ich mehrere Phasen durchlaufen und bin Schritt für Schritt zu einer möglichen Lösung gekommen.
 
 ### Verstehen
-Das Problem besteht darin, dass viele Benutzer nach dem Besuchen einer Website nicht mehr die URL überprüfen. Teilweise kann es auch schwierig sein, herauszufinden, ob es sich dabei um die echte URL handelt. Teilweise beginnen URLs auch mit Keywörtern wie `get`, `go`, `buy`. All dies macht es noch viel schwieriger die offizielle Website von den Fakes zu unterscheiden. Und es benötigt nur eine Fake Website, um einen Accound oder einen ganzen PC zu kompromitieren. Selbst technisch versierte Benutzern fällt so etwas oftmals erst dann auf, wenn es zu spät ist. Bei 'normalen' Benutzern oftmals noch später. 
-
-
-
-
-### Definieren
-Das Problem besteht darin, dass zu spät auffällt, dass die URL Fehler beinhaltet. Da Buchstabendreher oftmals sehr schwer zu erkennen sind, fallen diese oftmals erst dann auf, wenn entweder bereits die Credentials abgefangen wurden, oder ein Malicious executable heruntergeladen wurde. 
-
+Zuerst habe ich analysiert, was das eigentliche Problem ist. Dabei bin ich zu dem Schluss gekommen, dass das Hauptrisiko von Domains ausgeht, die täuschend echt wie die originale Webseite aussehen. Zudem verwenden manche offizielle Webseiten Präfixe oder Suffixe, was es noch schwieriger macht, eine offizielle Webseite von Betrugsseiten zu unterscheiden.
 
 ### Ideenfindung
-
-#### Browserextention Scan
-Man könnte eine Browserextention entwickeln, welche mittels eines Algorhythmuses bekannte Websiten wie z.B. google.com mit der aktuellen Website vergleicht. Das Entwickeln einer Browserextention wäre relativ einfach machbar. Allerdings stellt sich das Problem bei der Datenbeschaffung. Man müsste eine Liste von offiziellen Websiten zusamenstellen und diese manuel überprüfen. Eine Arbeit die relativ aufwändig und zudem auch fehleranfällig ist.
-
-#### DNS 
-DNS beschreibt einen Service in der Informatik, welcher den Domainname in die IP Adresse umwandelt. Es wäre nun theoretisch möglich einen eigenen DNS Server zu erstellen, der einige Domains nicht auflöst. Wodurch diese automatisch für den PC als nicht existent erscheinen. Solche Technologien werden auch bereits für das Blockieren von Malware und Werbung verwendet. Allerdings könnte man das ganze nochmals auf eine weitere Stufe bringen, indem man grundsätzlich nur DNS Namen auflöst, welche gewhitlistet sind. Der Vorteil besteht darin, dass man so automatisch die Daten durch die User sammelt. z.B. wenn 100 User die Domain `google.com` auflösen und nur ein User die Domain `gooogle.com` kann man schnell feststellen, dass wohl die Domain `google.com` die Offizielle Domain ist und nicht die Domain `gooogle.com`. Nun könnte man als malicious actor natürlich ein Botnet verwenden, um unzählige Male `gooogle.com`  aufzurufen. Wodurch dieses auf NR. 1 gepushed wird. Man müsste also noch irgend eine Form vom Authentifizierung einbauen, welche verhindert das fake queries abgesendet werden können. 
-
-Ein solcher Aufbau könnte meiner Meinung nach wie folgt aussehen
+Anschließend habe ich Ideen zur Lösung des Problems entwickelt. Meine Hauptlösung besteht darin, einen eigenen DNS-Server zu hosten, der automatisch gefährliche Webseiten erkennen und blockieren kann. Ein möglicher Aufbau könnte so aussehen:
 
 ![Scenario 1: Across columns](/image/dns.png)
 
-### Prototyping
+Dabei werden vergangene DNS-Anfragen anonymisiert gespeichert und anschließend verwendet, um gefälschte Webseiten zu erkennen.
 
-Die Erstellung eines Prototypen ist leider aufgrund von fehlender Zeit nicht möglich. Das erstellen eines Prototypens würde verumtlich mehrere Tage benötigen. Allerdings habe ich bei der Ideenfindung relativ gut beschrieben, wie ich es umsetzen würde.
-
-
-### Iterieren
-
-Um zu evaluieren, ob meine Lösung überhaupt etwas Taugt müsste ich diese Testen. Am besten geht so etwas, indem man zuerst das ganze gegen eine kleine Userbase testet und dann schrittweise erweitert. Einzige Hürde in meinem Fall ist, das meine Applikation für eine volle Funktion erstmals eine Grundbasis an Daten erfordert. Diese müsste im Vorhinein gewonnen werden. Dies ist natürlich ein Problem, welches viele Techstartups haben, bei welchen das Core Produkt auf Daten bassiert. In meinem Fall sollte die Datensamlung allerdings relativ einfach funktionieren.
-
-1. Ich würde Personen suchen, welche freiwillig meinen DNS Server verwenden, um so bereits einmal eine Userbase aufzubauen. Dadurch bin ich bereits einmal in der Lage erste Ergebnisse zu erhalten, welche später dann für die Analyse von der Popularität der Domain verwendet werden können. Gegebenefalls könnte mann auch mit Vorteilen (z.B. Entgeltung) locken.
-2. Ich würde einer kleinen Userbase Zugang zu der Applikation geben. Dabei würde ich technisch versierte Nutzer auswählen, welche Scams erkennen können und wissen wie sie dammit umgehen sollten.
-3. Ich würde die Userbase auch um technisch weniger begabte Benutzer erweitern.
-4. Ich würde eine Test Physhingkampanie mit einer eigenen Domain starten (natürlich nur gegen die Benutzer meiner Applikantion), um so zu testen, ob die Lösung überhaupt funktioniert. Der Angriff wäre natürlich im Legalen Rahmen und würde keinen Schaden anrichten.
-
-
-
-### Feedback
-
-> Ich habe meine Planung mit Levin besprochen
-
-Bei der Besprechnung hat sich herausgestellt, das Levin auch bereits Erfahrungen mit Fake Webseiten gemacht hat. Auch ihm war klar, wie schnell man auf so etwas hereinfallen kann und es erst dann auffällt, wenn es zu spät ist. 
-Er findet meine Lösungen gut. Allerdings sieht er bedenken, was das Thema Datensicherheit angeht. Browserextention sehen grundsätzlich den gesamten Inhalt von jeder Website, wodurch sie natürlich in der Lage sind, jegliche Daten abzugreifen. 
-Ein DNS Server wäre da die bessere Alternative. Allerdings sieht er auch dort bedenken, da auch dieser immernoch sieht, auf welche Webseiten man zugreift. Sicherheitstechnisch wäre es allerdings um einiges Sicherer.
-
-### Reflexion zum Feedback
-
-Punkto Datensicherheit muss ich Levin zustimmen. Browserextetion können absolute Datenkraken sein und haben oftmals viel mehr Berechtigungen, als sie eigentleich benötigen. Die DNS Lösung, welche ich da erarbeitet habe, wäre da schon sinnvoller. 
-Natürlich stellt auch die DNS Lösung nicht komplette Anonymität sicher. Die einzelnen Queries werden gespeichert (wenn auch anonymisiert), um diese später für Thread Protection zu verwenden. Allerdings muss man fairerweise sagen, das DNS Anfragen im Normalfall nicht verschlüsselt sind, wodurch alle Geräte zwischen dem Browser und dem DNS Server sehen, welche Website besucht wird. Dies beinhaltet z.B. der Router zu Hause, der Internet Provider (ISP), und alle öffentlichen Router dazwischen.
+### Iteration und Prototyping
+In der Iterationsphase wird überprüft, ob das Produkt brauchbar ist. Da ich keinen Prototyp entwickeln konnte, habe ich lediglich beschrieben, wie ich Usertests durchführen würde, falls ich einen Prototypen hätte.
