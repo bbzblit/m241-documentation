@@ -5,6 +5,8 @@ theme = 'hugo-book'
 
 [params]
 BookLogo = 'logo.jpeg'
+BookSearch = true
 
 [markup.goldmark.renderer]
 unsafe= true
+
